@@ -1,0 +1,408 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./Assets/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Jost:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <link rel="stylesheet" href="./Assets/Full-Details-Product.css">
+    <link rel="stylesheet" href="./Assets/Full-Dehails-nutrition.css">
+    <link rel="stylesheet" href="./Assets/Full-details-Review.css">
+    <link rel="stylesheet" href="./Assets/Product-page-list.css">
+    <title>Document</title>
+</head>
+
+<body>
+     <div class="profile-mainDiv">
+        <p>Hello Vikash</p>
+        <p>+91 9006427962</p>
+        <hr>
+        <p><i class="fa-solid fa-heart"></i> WiseList</p>
+        <p><i class="fa-solid fa-bag-shopping"></i> Order</p>
+        <p><i class="fa-solid fa-pen-to-square"></i> Edit Profile</p>
+        <a href="./Home page/Home.html"><p><i class="fa-solid fa-right-from-bracket"></i> Log out</p></a>
+    </div>
+
+
+ 
+    <div class="Navbar-main">
+        <img class="Compony-Logo" src="./Assets/images/Group 1261154073.png" alt="Logo">
+        <div class="mainubar"><i class="fa-solid fa-bars"></i></div>
+        <div class="input-Div">
+            <select>
+                <option>All Categories</option>
+            </select>
+            <i class="fa-solid fa-magnifying-glass searchIcon"></i>
+            <input type="text" placeholder="I'm shopping for...">
+        </div>
+        <div class="icons">
+            <i class="fa-regular fa-heart"><span class="badge">0</span></i>
+            <i class="fa-solid fa-cart-shopping"><span class="badge">0</span></i>
+        </div>
+        <div class="Signin" onclick="showProfile()" style="background-image: url(./Assets/images/Rectangle\ 39.png);">
+            <img src="./Assets/images/Group.png" alt="">
+            Sign in
+
+        </div>
+        <img src="./Assets/images/person.png" alt="" onclick="showProfile()" class="loginparsernicon">
+
+    </div>
+    <img class="Home-page-hr" src="./Assets/images/Rectangle 27.png" alt="">
+
+
+
+
+    <div class="shopping-Tracking-page">
+        <span>MY CART </span><span class="shopping-Tracking-page-span"> _ _ _ _ _ _ _ _ ADDRESS _ _ _ _ _ _
+            _PAYMENT</span>
+    </div>
+
+
+
+
+
+    <div class="path">
+        <span>Home /</span>
+        <span>My Cart </span>
+
+    </div>
+
+
+    <br>
+
+
+    <!-------------------------------------- Full Details ------------------------------------------------------------- -->
+    <!-------------------------------------- Full Details ------------------------------------------------------------- -->
+    <!-------------------------------------- Full Details ------------------------------------------------------------- -->
+
+
+    <div>
+        <div class="products-name-addToCart">
+            <h2>Product</h2>
+            <h2>Name</h2>
+            <h2>Quantity</h2>
+            <h2>price</h2>
+            <h2>Action</h2>
+
+        </div>
+        <hr>
+
+        <div class="cartToList-shoping">
+            <div class="cartToList-shoping-image"> <img src="./Assets/images/image_2016-07-21_5790ec24ded10 1.png"
+                    alt="">
+            </div>
+            <div class="cartToList-shoping-name">
+                <h3>Creatine Monohydrate <br> Creapure - 500g</h3>
+                <div class="cartToList-shoping-star">
+                    <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+                    <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+                    <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+                    <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+                    <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+                </div>
+                <span>Sold by Elite Athlete Nutition</span>
+            </div>
+            <input type="number" class="input-shoping-addtoCart">
+
+
+            <div class="">
+                <h3>₹516.00</h3>
+                <span style="text-decoration: line-through">M.R.P ₹999.00</span>
+            </div>
+            <div>
+                <button class="shopping-remove-BTN">MOVE TO WISHLIST</button>
+                <button class="shopping-Delite-BTN">DELETE</button>
+            </div>
+
+        </div>
+        <hr class="hr-border-shoping-cart">
+
+        <div class="cartToList-shoping">
+
+            <div class="cartToList-shoping-image"> <img src="./Assets/images/image_2016-07-21_5790ec24ded10 1.png"
+                    alt="">
+            </div>
+            <div class="cartToList-shoping-name">
+                <h3>Creatine Monohydrate <br> Creapure - 500g</h3>
+                <div class="cartToList-shoping-star">
+                    <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+                    <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+                    <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+                    <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+                    <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+                </div>
+                <span>Sold by Elite Athlete Nutition</span>
+            </div>
+            <input type="number" class="input-shoping-addtoCart">
+
+
+            <div class="">
+                <h3>₹516.00</h3>
+                <span style="text-decoration: line-through">M.R.P ₹999.00</span>
+            </div>
+            <div>
+                <button class="shopping-remove-BTN">MOVE TO WISHLIST</button>
+                <button class="shopping-Delite-BTN">DELETE</button>
+            </div>
+        </div>
+
+
+        <hr class="hr-border-shoping-cart">
+
+
+        <div class="cartToList-shoping">
+            <div class="cartToList-shoping-image"> <img src="./Assets/images/image_2016-07-21_5790ec24ded10 1.png"
+                    alt="">
+            </div>
+            <div class="cartToList-shoping-name">
+                <h3>Creatine Monohydrate <br> Creapure - 500g</h3>
+                <div class="cartToList-shoping-star">
+                    <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+                    <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+                    <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+                    <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+                    <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+                </div>
+                <span>Sold by Elite Athlete Nutition</span>
+            </div>
+            <input type="number" class="input-shoping-addtoCart">
+
+
+            <div class="">
+                <h3>₹516.00</h3>
+                <span style="text-decoration: line-through">M.R.P ₹999.00</span>
+            </div>
+            <div>
+                <button class="shopping-remove-BTN">MOVE TO WISHLIST</button>
+                <button class="shopping-Delite-BTN">DELETE</button>
+            </div>
+        </div>
+
+        <hr class="hr-border-shoping-cart">
+
+
+        <div class="cartToList-shoping">
+            <div class="cartToList-shoping-image"> <img src="./Assets/images/image_2016-07-21_5790ec24ded10 1.png"
+                    alt="">
+            </div>
+            <div class="cartToList-shoping-name">
+                <h3>Creatine Monohydrate <br> Creapure - 500g</h3>
+                <div class="cartToList-shoping-star">
+                    <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+                    <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+                    <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+                    <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+                    <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+                </div>
+                <span>Sold by Elite Athlete Nutition</span>
+            </div>
+            <input type="number" class="input-shoping-addtoCart">
+
+
+            <div class="">
+                <h3>₹516.00</h3>
+                <span style="text-decoration: line-through">M.R.P ₹999.00</span>
+            </div>
+            <div>
+                <button class="shopping-remove-BTN">MOVE TO WISHLIST</button>
+                <button class="shopping-Delite-BTN">DELETE</button>
+            </div>
+        </div>
+    </div>
+
+    <hr class="hr-border-shoping-cart">
+
+
+    <div>
+        <div class="cuponCode-input-mainDiv">
+            <div class="cuponCode-input-shoping">
+
+                <i class="fa-solid fa-tag"></i>
+                <input class="cuponCode-input" type="text" placeholder="Enter Coupon Code">
+                <button class="cuponCode-input-btn">APPLY</button>
+            </div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div class="shopping-price-count">
+                <h2>Order Summary</h2>
+                <div class="cuponCode-input-items">
+                    <Span>Item(s) Subtotal:</Span>
+                    <p>₹550.00</p>
+                </div>
+
+                <div class="cuponCode-input-items">
+                    <Span>Shipping:
+                    </Span>
+                    <p>
+                        ₹40.00</p>
+                </div>
+
+
+                <div class="cuponCode-input-items">
+                    <Span>Total:
+                    </Span>
+                    <p>
+                        ₹590.00
+                    </p>
+                </div>
+
+
+                <div class="cuponCode-input-items">
+                    <Span>Coupon Applied:
+                    </Span>
+                    <p>- ₹150.00
+                    </p>
+                </div>
+
+
+                <div class="cuponCode-input-items">
+                    <Span>Grand Total:</Span>
+                    <p>₹550.00</p>
+                </div>
+
+
+                <a href="CustomerAddress-input.html"><button class="shopping-proceed-checkoutBTN">Proceed to Checkout</button></a>
+            </div>
+
+        </div>
+
+    </div>
+
+
+
+
+    <hr class="hr-border-shoping-cart">
+
+
+
+
+
+
+
+
+
+
+
+    <!-------------------------------------- Footer ------------------------------------------------------------- -->
+    <!-------------------------------------- Footer ------------------------------------------------------------- -->
+    <!-------------------------------------- Footer ------------------------------------------------------------- -->
+
+    <div class="Footer-main-div">
+        <div class="Footer-div1">
+            <img class="Footer-logo" src="./Assets/images/Group 1261154050.png" alt="">
+            <p>BEYOND JUST WORK, B-38, Old DLF <br> Colony, Sector 14, Gurugram, Haryana <br> 122001</p>
+            <p>Call us : +91 6969696969</p>
+            <p>Email : support@gmail.com</p>
+            <div class="icon-footer">
+                <i class="fa-brands fa-facebook"></i>
+                <i class="fa-brands fa-twitter"></i>
+                <i class="fa-brands fa-linkedin"></i>
+                <i class="fa-brands fa-pinterest"></i>
+                <i class="fa-brands fa-instagram"></i>
+            </div>
+        </div>
+
+
+        <div>
+            <div class="Footer-div2">
+                <span>Shop by</span>
+                <p>Brands</p>
+                <p>Shop by goal</p>
+                <p>Top 10</p>
+                <p>Beauty</p>
+            </div>
+
+        </div>
+
+        <div class="Footer-div2">
+            <span>Information</span>
+            <p>About us</p>
+            <p>Contact us</p>
+
+        </div>
+        <div class="Footer-div2">
+            <span>Customer Service</span>
+            <p>Help & FAQs</p>
+            <p>Privacy Policy</p>
+            <p>Online Returns Policy</p>
+        </div>
+
+
+        <div class="Footer-div3">
+            <span>Newsletter Sing Up</span>
+            <p>Receive our latest updates about our <br>
+                products and promitions.</p>
+            <div class="input-box-footer"><input type="text"><button>Subscribe</button></div>
+            <label for="">
+                <input type="checkbox" class="checkbox-footer">
+                <p>I agree with the Terms of Use and <br>
+                    Privacy Policy and I declare that I <br>
+                    have read thee information is <br>
+                    required in accordance with Article <br>
+                    13 of GDPR</p>
+            </label>
+        </div>
+
+
+    </div>
+    <div class="Footer-copyRight">
+        <p>Logo © 2023. All Rights Reserved</p>
+        <img src="./Assets/images/atm.png" alt="">
+    </div>
+
+
+
+
+
+
+ <!-------------------------------------- SideBar ------------------------------------------------------------- -->
+    <!-------------------------------------- SideBar ------------------------------------------------------------- -->
+    <!-------------------------------------- SideBar ------------------------------------------------------------- -->
+
+    <div class="SideBar-main-Div">
+
+        <div class="SideBar-Logo">
+            <img src="./Assets/images/Group 1261154050.png" alt="">
+            <p class="closeSidebar">𐤕</p>
+        </div>
+        <div>
+            <div class="SideBar-main-Div-list">
+                <select name="" id="" class="SideBar-Brand">
+                    <option value="">Brands </option>
+                    <option value="">Brand </option>
+                    <option value="">Brand </option>
+                </select>
+            </div>
+
+
+            <div class="SideBar-main-Div-list">
+                <select name="" id="" class="SideBar-Brand">
+                    <option value="">Brands </option>
+                    <option value="">Brand </option>
+                    <option value="">Brand </option>
+                </select>
+
+
+            </div>
+        </div>
+    </div>
+
+    <script src="./home.js"> </script>
+
+
+
+
+
+
+
+
+
+
+
+</body>
+
+</html>

@@ -1,0 +1,134 @@
+.loginmainDiv {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.5);
+    height: 100vh;
+    width: 100%;
+    font-family: 'Jost', sans-serif;
+    top: 0;
+    position: fixed;
+    z-index: 10;
+
+}
+
+
+a {
+    text-decoration: none;
+    color: inherit;
+    margin-top: 5px;
+    cursor: pointer;
+}
+
+.closeBTN {
+    margin-left: 280px;
+    font-size: 26px;
+    top: 10px;
+    cursor: pointer;
+
+    position: absolute;
+
+}
+
+.LoginFrom {
+    position: relative;
+
+    width: 320px;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(255, 255, 255);
+    font-size: 14px;
+}
+
+input::placeholder {
+    opacity: 0.4;
+    font-size: 12px;
+}
+
+
+
+.logininput {
+    margin-top: 20px;
+}
+
+.LOGOloginImage {
+    height: 30px;
+    margin: 10px;
+
+}
+
+.SignBTN {
+    width: 100%;
+    padding: 13px;
+    margin-top: 20px;
+    background: linear-gradient(to right, #590462, #1D0163);
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.hrlogin {
+    width: 100%;
+    margin: 10px;
+    border: #dcdcdc 1px solid;
+    opacity: 0.4;
+}
+
+.SingupNowlogin {
+    font-size: 16px;
+}
+
+
+
+
+.forgermainDiv {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.5);
+    height: 100vh;
+    width: 100%;
+    font-family: 'Jost', sans-serif;
+    top: 0;
+    position: fixed;
+    z-index: 10;
+    display: none;
+
+} 
+
+
+
+
+.Registerpage {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.5);
+    height: 100vh;
+    width: 100%;
+    font-family: 'Jost', sans-serif;
+    top: 0;
+    position: fixed;
+    z-index: 10;
+    display: none;
+   
+}
+
+
+
+
+
+
+.pleaseegorgetpwd {
+    margin-top: 30px;
+    font-weight: 500;
+}
+
+.captcheImage {
+    height: 30px;
+    margin: 15px;
+    margin-right: 180px;
+}

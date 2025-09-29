@@ -1,0 +1,1420 @@
+@font-face {
+    font-family: 'Luxia';
+    src: url('fonts/Luxia-Regular.ttf') format('truetype');
+    font-style: normal;
+}
+
+body {
+    font-family: 'Luxia';
+
+    line-height: 1.5;
+    letter-spacing: 0.6px;
+
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+/* Navbar */
+a {
+    text-decoration: none;
+}
+
+.Navbar-main {
+
+    width: 98%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding-right: 40px;
+    padding-left: 40px;
+    padding: 25px;
+
+
+}
+
+.Compony-Logo {
+    width: 80px;
+    height: 80px;
+
+}
+
+.mainubar {
+    font-size: 22px;
+    cursor: pointer;
+    margin-left: 70px;
+}
+
+
+.input-Div {
+    display: flex;
+    align-items: center;
+    width: 60%;
+    height: 60px;
+    border: 1.5px solid #D5D5D5;
+    border-radius: 5px;
+    padding: 10px;
+
+}
+
+.loginparsernicon {
+    display: none;
+}
+
+.searchIcon {
+    display: none !important;
+}
+
+.input-Div select {
+    border: none;
+    outline: none;
+    height: 100%;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.input-Div input {
+    width: 100%;
+    height: 40px;
+    margin-left: 20px;
+    outline: none;
+    padding: 25px;
+    font-weight: normal;
+    border: none;
+    font-size: 14px;
+    border-left: 1px solid #ccc;
+
+}
+
+
+.icons {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    font-size: 18px;
+    margin-right: 50px;
+}
+
+.icons i {
+    cursor: pointer;
+    position: relative;
+    opacity: 0.8;
+
+}
+
+.badge {
+    position: absolute;
+    top: -8px;
+    right: -12px;
+    background: #F55F1E;
+    color: #fff;
+    font-size: 12px;
+    border-radius: 50%;
+    padding: 2px 6px;
+
+}
+
+.Signin {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+    height: 40px;
+    width: 110px;
+    color: white;
+    border-radius: 2px;
+    cursor: pointer;
+    background-size: cover;
+
+    font-family: 'Jost', sans-serif;
+
+
+}
+
+
+
+
+
+
+
+
+.Signin img {
+    height: 18px;
+    color: white;
+}
+
+.Home-page-hr {
+    height: 6px;
+    width: 100%;
+}
+
+
+
+
+@media (max-width: 768px) {
+    .Navbar-main {
+        flex-direction: column;
+        position: relative;
+        justify-content: center;
+        padding: 20px;
+
+        padding-right: 0px;
+
+
+    }
+
+    .BestSellprice {
+        width: 100% !important;
+        position: relative;
+        flex-direction: row !important;
+        margin-left: 0px !important;
+        font-size: 12px;
+        gap: 10px !important;
+
+    }
+
+    .BestSellprice img {
+        height: 50px !important;
+
+    }
+
+    .SecondDivmain {
+        left: 0;
+        top: 0;
+    }
+
+    .EasyMixDiv {
+        font-size: 24px;
+    }
+.searchIcon{
+    display: block !important;
+}
+
+
+    .HomeMainDiv {
+        height: 400px !important;
+    }
+
+
+    .PowederLogo {
+
+        left: 3px !important;
+    }
+
+
+    .SecondDivmain {
+        left: 0;
+        top: 0;
+        margin: 10px;
+
+    }
+
+    .loginparsernicon {
+        display: block;
+        height: 24px;
+        position: relative;
+        left: 145px;
+        top: -108px;
+
+    }
+
+    .TrendyCollection p {
+        color: #2E0158;
+        font-size: 12px !important;
+        font-weight: 700;
+    }
+
+    .TrendyCollection {
+        width: 62% !important;
+    }
+
+    .All-homepage-secondDiv {
+        width: 100% !important;
+    }
+
+    .EasyMixDiv {
+        font-size: 1.1rem !important;
+        margin-top: 5px;
+        line-height: normal;
+        margin-bottom: 30px;
+    }
+
+    .SecondDivmain img {
+        position: relative;
+        left: 20px !important;
+        bottom: 1px !important;
+    }
+
+    .Product-About-Homepage {
+        font-size: 10px !important;
+    }
+
+
+
+    .mainubar {
+        position: absolute;
+        margin-right: 360px;
+        margin-bottom: 100px;
+    }
+
+    .icons {
+        position: absolute;
+        margin-left: 210px;
+        margin-bottom: 88px;
+    }
+
+    .powder-box-image1 {
+        height: 176px !important;
+        width: 134px !important;
+    }
+
+    .shipping-Free {
+        display: none !important;
+    }
+
+    .SecondDivmain {
+        position: relative;
+        left: 10px !important;
+        top: 10px !important;
+    }
+
+    .Signin {
+        display: none;
+    }
+
+    .All-Home-page {
+        padding: 10px !important;
+        flex-direction: column-reverse;
+    }
+
+    .input-Div select {
+        display: none;
+    }
+
+    .input-Div {
+        width: 100%;
+        margin-right: 0px;
+    }
+
+    .Compony-Logo {
+        height: 50px;
+        width: 50px;
+        margin-bottom: 10px;
+
+
+    }
+
+
+    .oferProtin {
+        display: none !important;
+    }
+
+    .main-div-Top-deals {
+        display: none;
+    }
+
+
+
+
+
+
+    .Footer-main-div {
+        flex-direction: column !important;
+        padding-left: 40px;
+    }
+
+    .Footer-copyRight {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .Footer-copyRight img {
+        margin-left: 2% !important;
+    }
+
+
+    .Sport-stars-AdFds {
+        flex-direction: column;
+        width: 100%;
+        max-width: 100%;
+    }
+
+    .Sport-stars-Adds img {
+        width: 100%;
+        height: auto;
+    }
+
+
+
+    .Brand-Name-image {
+        height: 130px !important;
+    }
+}
+
+
+/* 
+<!-------------------------------------- Home page ------------------------------------------------------------- -->
+<!-------------------------------------- Home page ------------------------------------------------------------- -->
+<!-------------------------------------- Home page ------------------------------------------------------------- --> */
+
+
+
+
+
+
+
+/* Home page */
+
+.All-Home-page {
+    display: flex;
+    justify-content: center;
+    padding: 30px;
+}
+
+.All-Powder-box {
+    display: flex;
+    flex-direction: row;
+    overflow-y: auto;
+    scroll-snap-type: x mandatory;
+    background-color: rebeccapurple;
+    width: 100%;
+    scrollbar-width: none;
+}
+
+
+.All-homepage-secondDiv {
+    width: 50%;
+
+}
+
+.HomeMainDiv {
+    background-image: url('./images/Group\ 1261153688.png');
+    width: 60%;
+    position: relative;
+    display: flex;
+    height: 500px;
+    top: 0;
+    flex-direction: row;
+    scroll-snap-align: start;
+    background-size: cover;
+    flex: 0 0 100%;
+}
+
+
+.SecondDivmain {
+    position: relative;
+    left: 55px;
+    top: 65px;
+}
+
+.SecondDivmain img {
+    position: relative;
+    left: 175px;
+    bottom: 30px;
+}
+
+.TrendyCollection {
+    background-color: #FFFFFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 37px;
+    width: 47%;
+    border-radius: 3px;
+}
+
+.TrendyCollection p {
+    color: #2E0158;
+    font-size: 18px;
+    font-weight: 500;
+
+}
+
+.EasyMixDiv {
+    font-size: 2.4rem;
+    margin-top: 10px;
+    line-height: normal;
+}
+
+.Product-About-Homepage {
+    font-size: 14px;
+    position: relative;
+    bottom: 20px;
+    color: #505050;
+    letter-spacing: 0.2px;
+
+}
+
+.DotDivMain {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+
+.dot {
+    border: 1px solid;
+    height: 10px;
+    width: 10px;
+    border-radius: 50%;
+    margin-top: 30px;
+
+}
+
+.explore-button {
+    border: none;
+    padding: 15px 40px;
+    color: white;
+    font-size: 14px;
+    cursor: pointer;
+    border-radius: 4px;
+    margin-top: 20px;
+    background: linear-gradient(to right, #590462, #1D0163);
+    transform: skewX(-20deg);
+}
+
+.explore-button:hover {
+    background-color: #1D0163;
+}
+
+.explore-button span {
+    display: inline-block;
+    transform: skewX(20deg);
+}
+
+.PowederLogo {
+    position: relative;
+    top: 60px;
+    left: 6%;
+
+}
+
+.powder-box-image1 {
+    height: 360px;
+
+}
+
+
+
+.powder-box-image2 {
+    height: 360px;
+    width: 180px;
+    margin-left: 50px;
+}
+
+.powder-box-image3 {
+    height: 360px;
+    width: 200px;
+    margin-left: 50px;
+}
+
+.powder-box-image4 {
+    height: 360px;
+    width: 350px;
+    position: relative;
+    right: 40px;
+}
+
+/* .shadow-Powder{
+    border: 2px solid;
+    width: 50px;
+    box-shadow: #ff0000;
+} */
+
+
+
+
+.shipping-Free {
+    background-color: #E9E1FF;
+    height: 114px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    box-sizing: border-box;
+
+
+
+
+}
+
+.icon-shopping-free1 {
+    height: 26px;
+    width: 21px;
+}
+
+.icon-shopping-free2,
+.icon-shopping-free3 {
+
+    width: 26px;
+    height: 25px;
+
+}
+
+.shipping-Free span {
+    font-size: large;
+    margin-left: 10px;
+}
+
+
+.shipping-Free p {
+    font-size: 12px;
+    color: #646060;
+    margin-top: 10px;
+
+}
+
+.oferProtin {
+    height: 613px;
+    width: 30%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    background-color: #F4F0FF;
+    margin-left: 30px;
+}
+
+.Limit-Time-Offer1 {
+    height: 200px;
+}
+
+.Limit-Time-Offer2 {
+
+    width: 253px;
+    height: 278px;
+
+
+}
+
+.BestSellprice {
+    background-color: #1D0163;
+    width: 10%;
+    margin-left: 30px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+    border-radius: 0px 0 10px 10px;
+
+
+}
+
+.BestSellprice img {
+    height: 70px;
+    margin-top: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Shop-by-Gym */
+/* Shop-by-Gym */
+/* 
+    <!-------------------------------------- shop by Goal Gym------------------------------------------------------------- -->
+    <!-------------------------------------- shop by Goal Gym------------------------------------------------------------- -->
+    <!-------------------------------------- shop by Goal Gym------------------------------------------------------------- --> */
+
+
+
+.main-Div-Gym {
+    width: 100%;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+
+
+}
+
+.all-items {
+    width: 92%;
+
+    display: flex;
+    flex-direction: column;
+    font-family: 'Jost', sans-serif;
+}
+
+.header-Name img {
+    width: 184px;
+    margin-bottom: 10px;
+}
+
+.header-Name {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 25px;
+
+}
+
+.header-Name p {
+    font-size: 40px;
+    font-weight: 700;
+
+}
+
+.image2 {
+    position: absolute;
+    width: 170px;
+    margin-top: 60px;
+}
+
+.image1 {
+    width: 220px;
+    height: 270px;
+}
+
+.header-Name span {
+    color: #707070;
+    font-size: 18px;
+}
+
+
+.All-Deals {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    width: 100%;
+    overflow-x: auto;  
+    scrollbar-width: none;
+     overflow-x: hidden; 
+
+
+}
+
+
+.Card-gym {
+
+    display: flex;
+    position: relative;
+
+
+}
+
+
+
+.Card-gym div {
+    position: absolute;
+    bottom: 0;
+    color: white;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    padding-bottom: 10px;
+    background: linear-gradient(to top, rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0));
+
+}
+
+.Card div :first-child {
+    font-size: 1.2rem;
+    font-weight: 500;
+
+}
+
+.Card div p {
+    margin: 0;
+}
+
+.item-Qty-50 {
+    font-size: 12px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Top .All-Deals */
+
+.main-div-Top-deals {
+    background-color: #F7F7F9;
+    width: 100%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 40px;
+    font-family: 'Jost', sans-serif;
+    margin-top: 20px;
+
+}
+
+.Top-Deals {
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.main-div-list {
+    display: flex;
+    width: 92%;
+    flex-direction: row;
+    align-items: center;
+    gap: 25px;
+    margin-bottom: 40px;
+    justify-content: flex-start;
+      overflow-y: auto; 
+    scrollbar-width: none;
+
+
+}
+
+.rightSideImage {
+
+    position: absolute;
+    background-color: white;
+    padding: 15px;
+    border-radius: 50%;
+    box-shadow: #707070 0px 0px 5px 0px;
+    right: 30px;
+    margin-top: 100px;
+    z-index: 12;
+}
+
+.leftSideImage {
+
+    position: absolute;
+    background-color: white;
+    padding: 15px;
+    border-radius: 50%;
+    box-shadow: #707070 0px 0px 5px 0px;
+    left: 30px;
+    margin-top: 100px;
+    z-index: 12;
+}
+
+
+
+
+
+
+.leftSideImage:hover,
+.rightSideImage:hover {
+    padding: 20px;
+    position: absolute;
+    cursor: pointer;
+    transition: all 0.5s ease;
+
+}
+
+.card {
+    background-color: white;
+    height: 333px;
+    width: 364px;
+    display: flex;
+    justify-content: space-between;
+    padding: 25px;
+    position: relative;
+    overflow: hidden;
+    cursor: pointer;
+    flex: 0 0 auto;
+    font-weight: 500;
+
+}
+
+.card-info {
+    display: flex;
+    flex-direction: column;
+    margin-top: 4px;
+
+}
+
+/* wajan kg */
+.weight {
+    color: #4A5870;
+    font-size: 14px;
+
+}
+
+.Product-Name {
+    font-size: 24px;
+}
+
+
+.price {
+    font-weight: bold;
+    color: #4A5870;
+    font-size: 12px;
+
+}
+
+.MRP-price {
+    text-decoration: line-through;
+    color: #FF072E;
+    font-size: 9px;
+
+
+}
+
+.card-info img {
+    height: 17px;
+    width: 141px;
+    margin-top: 10px;
+}
+
+.View-Product-Btn {
+    position: relative;
+    top: 155px;
+    z-index: 2;
+}
+
+.card-image {
+    position: relative;
+    display: flex;
+    justify-content: center;
+
+
+}
+
+.card-image img {
+    height: 220px;
+}
+
+.rounded-div {
+    background-color: #EEF2FF;
+    width: 368px;
+    height: 368px;
+    top: 110px;
+    margin-left: 180px;
+    border-radius: 50%;
+    position: absolute;
+    bottom: 0;
+    transition: transform 0.4s ease-in-out;
+    transform-origin: center;
+
+}
+
+
+
+.Product-Icon {
+    margin-right: 20px;
+    position: relative;
+    top: 70px;
+    z-index: 1;
+    height: 200px;
+
+    transition: transform 0.4s ease-in-out;
+    transform-origin: bottom center;
+
+
+}
+
+.card:hover .Product-Icon {
+    transform: scale(1.2);
+    transition: transform 0.4s ease-in-out;
+
+}
+
+.card:hover .rounded-div {
+    transform: scale(1.2);
+    transition: transform 0.4s ease-in-out;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* 
+    <!--------------------------------------this page is  Discount 10% ------------------------------------------------------------- -->
+    <!--------------------------------------this page is  Discount 10% ------------------------------------------------------------- -->
+    <!--------------------------------------this page is  Discount 10% ------------------------------------------------------------- --> */
+.Discount-main-Div {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    gap: 30px;
+    flex-direction: row;
+    overflow-y: hidden;
+    scrollbar-width: none;
+
+}
+
+.Discount1 {
+    height: 240px;
+    width: 900px;
+    background-color: #F7F7F7;
+    display: flex;
+    flex-direction: row;
+    padding-right: 40px;
+    padding-left: 40px;
+    align-items: center;
+    flex: 0 0 900px;
+
+}
+
+
+.Discount1 img {
+    height: 195px;
+}
+
+.Discount1 h2 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 24px;
+}
+
+.Discount1 span {
+    font-family: 'Poppins', sans-serif;
+    font-size: 12px;
+    color: #495466;
+}
+
+.Discount1 p {
+    font-family: 'Indie Flower', cursive;
+    font-size: 24px;
+    color: #FF4E4E;
+    font-weight: 100;
+
+}
+
+.Discount2 {
+    height: 240px;
+    width: 470px;
+    background-color: #F7F7F7;
+    display: flex;
+    flex-direction: row;
+    padding-right: 20px;
+    padding-left: 20px;
+    align-items: center;
+    flex: 0 0 470px;
+}
+
+
+.Discount2 img {
+    height: 195px;
+}
+
+.Discount2 h2 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 24px;
+}
+
+.Discount2 span {
+    font-family: 'Poppins', sans-serif;
+    font-size: 12px;
+    color: #495466;
+}
+
+.Discount2 p {
+    font-family: 'Indie Flower', cursive;
+    font-size: 24px;
+    color: #FF4E4E;
+    font-weight: 100;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+/* 
+<!-------------------------------------- Sport Stars ------------------------------------------------------------- -->
+<!-------------------------------------- Sport Stars ------------------------------------------------------------- -->
+<!-------------------------------------- Sport Stars ------------------------------------------------------------- --> */
+.Sport-stars-main {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    flex-direction: column;
+    width: 98%;
+
+}
+
+.Sport-all-item {
+    display: flex;
+    flex-direction: row;
+    width: 97%;
+    overflow-y: hidden;
+    scrollbar-width: none;
+    gap: 30px;
+    justify-content: flex-start;
+
+}
+
+.Sport-stars-Adds {
+    border: 1px solid;
+    border-color: #fafafa;
+    width: 690px;
+
+    display: flex;
+    font-family: 'Jost', sans-serif;
+    position: relative;
+    flex: 0 0 690px;
+    overflow: hidden;
+
+}
+
+.Sport-stars-Adds div {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+
+    gap: 8px;
+
+}
+
+.Sport-stars-Adds img {
+    height: 335px;
+}
+
+.Sport-stars-Adds p {
+    font-size: 14px;
+    color: #4A5870;
+}
+
+.Sport-stars-Adds span {
+    color: #4A5870;
+    font-size: 20px;
+
+}
+
+.circle-Round {
+    width: 196px;
+    height: 196px;
+    border-radius: 50%;
+    background-color: #EEF2FF;
+    position: absolute;
+    bottom: -80px;
+    right: -70px;
+    z-index: -2;
+
+
+}
+
+
+
+
+
+
+
+
+/* 
+<!-------------------------------------- Brand Name ------------------------------------------------------------- -->
+<!-------------------------------------- Brand Name ------------------------------------------------------------- -->
+<!-------------------------------------- Brand Name ------------------------------------------------------------- --> */
+
+.Brand-Name-div {
+    display: flex;
+
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    width: 100%;
+
+}
+
+.Brand-Name-image {
+
+    width: 90%;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* 
+<!-------------------------------------- Footer Style ------------------------------------------------------------- -->
+<!-------------------------------------- Footer Style ------------------------------------------------------------- -->
+<!-------------------------------------- Footer Style ------------------------------------------------------------- --> */
+
+
+.Footer-main-div {
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding-top: 50px;
+    color: white;
+    background: linear-gradient(to bottom, #26015C 0%, #52045F 100%);
+    font-family: 'Jost', sans-serif;
+
+
+}
+
+.Footer-logo {
+    height: 100px;
+}
+
+.Footer-div1 {
+    font-size: 14px;
+    font-weight: 200;
+}
+
+.Footer-main-div span {
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.Footer-main-div p {
+    padding-top: 20px;
+}
+
+.Footer-div2 p {
+    color: #CD99FF;
+    font-size: 14px;
+
+
+}
+
+.icon-footer i {
+    font-size: 20px;
+    margin-top: 20px;
+    margin-right: 20px;
+    margin-bottom: 40px;
+}
+
+.Footer-div3 {
+    font-weight: 200;
+    margin-bottom: 30px;
+}
+
+.input-box-footer {
+    border: 1px solid white;
+    height: 32px;
+    width: 259px;
+    margin-top: 20px;
+}
+
+.input-box-footer input {
+    outline: none;
+    height: 32px;
+    border: none;
+    background: transparent;
+}
+
+.input-box-footer button {
+    height: 32px;
+    border: none;
+    margin: 0;
+    width: 88px;
+    background-color: white;
+
+}
+
+.checkbox-footer {
+    position: absolute;
+    margin-top: 26px;
+}
+
+.Footer-div3 label p {
+    margin-left: 20px;
+
+}
+
+.Footer-copyRight {
+    display: flex;
+    background-color: #52045F;
+    height: 60px;
+    align-items: center;
+
+    box-shadow: 0 -4px 8px rgba(0, 0, 0, 0.3);
+
+}
+
+.Footer-copyRight p {
+    color: white;
+    font-family: 'Jost', sans-serif;
+    margin-left: 50px;
+}
+
+.Footer-copyRight img {
+    height: 27px;
+    margin-left: 57%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* 
+  <!-------------------------------------- SideBar ------------------------------------------------------------- -->
+    <!-------------------------------------- SideBar ------------------------------------------------------------- -->
+    <!-------------------------------------- SideBar ------------------------------------------------------------- --> */
+
+.SideBar-main-Div {
+    height: 99vh;
+    width: 300px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    color: white;
+    display: flex;
+    padding-top: 50px;
+    flex-direction: column;
+    display: none;
+    background: linear-gradient(to bottom, #26015C 0%, #52045F 100%);
+}
+
+.SideBar-main-Div.active {
+    display: block;
+}
+
+.SideBar-Logo {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.SideBar-Logo img {
+    height: 80px;
+
+}
+
+.SideBar-Logo p {
+    font-size: 30px;
+}
+
+.SideBar-Logo p:hover {
+    cursor: pointer;
+}
+
+.SideBar-main-Div-list {
+    position: relative;
+    width: 100%;
+    height: 80px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+
+    border-top: 1px solid rgba(255, 255, 255, 0.4);
+
+
+
+}
+
+.SideBar-Brand {
+    font-size: 20px;
+    width: 70%;
+    outline: none;
+    background: transparent;
+    border: none;
+    color: white;
+
+
+
+}
+
+.SideBar-Brand option {
+    height: 60px;
+
+    line-height: 60px;
+}
+
+
+
+
+
+
+
+.profile-mainDiv {
+
+    width: 13%;
+    background-color: #ffffff;
+
+    position: absolute;
+    top: 14%;
+    right: 3%;
+    z-index: 10;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    display: none;
+    padding-bottom: 20px;
+    box-shadow: #707070 0px 0px 5px 0px;
+}
+
+.profile-mainDiv.active {
+    right: 13%;
+}
+
+.profile-mainDiv hr {
+    opacity: 0.4;
+}
+
+.profile-mainDiv p:first-child {
+    font-size: 26px;
+    font-weight: 600;
+    margin-left: 30px;
+    width: 180px;
+
+}
+
+.profile-mainDiv p {
+    margin-left: 40px;
+  margin-top: 10px;
+    cursor: pointer;
+}

@@ -1,0 +1,476 @@
+.reviews-main-div span {
+    color: #606060;
+}
+
+.reviews-main-div h3 {
+    color: #606060;
+    margin-top: 30px;
+}
+
+
+
+
+.hr-border-full-detail {
+    margin-left: 70%;
+    background-color: red;
+}
+
+.icons-review {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.icons-review i {
+    font-size: 20px;
+}
+
+.Reviews-iamge {
+    width: 100px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.like-deslike-image {
+    float: right;
+
+}
+
+.like-deslike-image img {
+    height: 20px;
+    margin-left: 30px;
+    margin-right: 10px;
+    cursor: pointer;
+
+}
+
+.like-deslike-image img:hover {
+    scale: 1.3;
+    transition-duration: 2s;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.shopping-Tracking-page {
+    float: right;
+    margin-top: 30px;
+    font-size: 13px;
+    font-weight: 600;
+    margin-right: 40px;
+
+}
+
+.shopping-Tracking-page-span {
+    color: #b3b3b3;
+}
+
+.products-name-addToCart {
+
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 20px;
+}
+
+.cartToList-shoping {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+    align-items: center;
+}
+
+.cartToList-shoping-image {
+    background-color: #F5F5F5;
+    padding: 20px;
+}
+
+.cartToList-shoping-image img {
+    height: 170px;
+}
+
+.cartToList-shoping-name {
+    margin-top: 30px;
+}
+
+.cartToList-shoping-star {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.cartToList-shoping span {
+    color: #606060;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* <!-------------------------------------- shoping cart hai ------------------------------------------------------------- -->
+    <!-------------------------------------- shoping cart hai ------------------------------------------------------------- -->
+    <!-------------------------------------- shoping cart hai ------------------------------------------------------------- -->
+
+ */
+
+.input-shoping-addtoCart {
+    width: 50px;
+    height: 50px;
+}
+
+.shopping-remove-BTN {
+    cursor: pointer;
+    padding: 10px;
+    color: white;
+    font-family: 'Jost', sans-serif;
+    font-weight: 600;
+    background-color: #5A0563;
+}
+
+
+.shopping-Delite-BTN {
+    margin-left: 40px;
+    border: 1px solid;
+    border-color: #E5E5E5;
+    padding: 10px;
+    cursor: pointer;
+    background-color: transparent;
+}
+
+.hr-border-shoping-cart {
+
+    border: 0.2px solid;
+    margin: 10px;
+    border-color: #e6e6e6;
+}
+
+.cuponCode-input-shoping {
+    border: 1px solid;
+    border-color: #b3b3b3;
+    height: 50px;
+    width: 400px;
+    border-color: #5A0563;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    margin-top: 10px;
+
+
+}
+
+.cuponCode-input-mainDiv {
+    display: flex;
+    margin-bottom: 30px;
+    justify-content: space-around;
+}
+
+.cuponCode-input {
+    padding: 13px;
+    border: none;
+    font-size: 16px;
+    font-weight: 500;
+    width: 310px;
+    opacity: 0.3px;
+}
+
+.cuponCode-input-btn {
+    height: 40px;
+    padding: 10px;
+    border: none;
+    color: white;
+    cursor: pointer;
+    background-color: #5A0563;
+}
+
+
+.shopping-price-count {
+    width: 350px;
+}
+
+.cuponCode-input-items {
+    display: flex;
+    margin: 10px;
+    justify-content: space-between;
+}
+
+.cuponCode-input-items span {
+    color: #606060;
+    font-weight: 600;
+
+}
+
+.shopping-proceed-checkoutBTN {
+    padding: 10px;
+    background-color: #5A0563;
+    border: none;
+    color: white;
+    font-weight: 600;
+    font-family: 'Jost', sans-serif;
+    font-size: 16px;
+    margin-top: 20px;
+    cursor: pointer;
+    margin-left: 165px;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.checkbox-CustomerName {
+    position: relative;
+    height: 50px;
+    border: 2px solid #514f51;
+    padding: 0 10px;
+    display: flex;
+    width: 100%;
+
+
+}
+
+.checkbox-CustomerName input {
+    width: 100%;
+    height: 100%;
+    border: none;
+    outline: none;
+}
+
+.checkbox-CustomerName span {
+    position: absolute;
+    top: -10px;
+    left: 10px;
+    background: #fff;
+    padding: 0 5px;
+    font-size: 14px;
+    font-weight: 500;
+
+}
+
+.checkbox-CustomerName-top {
+    display: flex;
+    gap: 40px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    justify-content: space-around;
+}
+
+.checkbox-CustomerName-main {
+    width: 90%;
+    border: #5A0563 2px solid;
+    padding: 20px;
+
+}
+
+
+.checkbox-Address-home input {
+    height: 22px;
+    width: 30px;
+
+
+}
+
+.checkbox-Address-office {
+    height: 20px;
+    width: 30px;
+    margin-top: 20px;
+    margin-right: 10px;
+}
+
+.checkbox-cancelBTN {
+    padding: 15px;
+    width: 120px;
+    float: right;
+    margin-right: 20px;
+    border: none;
+    color: white;
+    background-color: black;
+    cursor: pointer;
+}
+
+.checkbox-AddNewAdBTN {
+
+    padding: 15px;
+    width: 220px;
+    float: right;
+    border: none;
+    color: white;
+    cursor: pointer;
+    background: linear-gradient(to bottom, #26015C 0%, #52045F 100%);
+
+}
+
+.checkout-selectImage {
+    display: flex;
+
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+@media (max-width: 768px){
+    
+    .checkout-selectImage{
+        flex-direction: column;
+    }
+    .cuponCode-input-mainDiv{
+        flex-direction: column;
+    }
+    .checkbox-CustomerName-top{
+        flex-direction: column;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.CustomerAddress-lis {
+    width: 66%;
+    margin-right: 10px;
+    border: #5A0563 2px solid;
+  
+
+}
+.AddToNewAddress{
+    padding: 13px;
+    font-size: 15px;
+    float: right;
+    background-color: transparent;
+    font-weight: 600;
+}
+.AddToNewAddress-div{
+    height: 100px;
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   padding: 30px;
+}
+.defaltAddress-list{
+    padding: 20px;
+    border-bottom: #26015C 1px solid;
+    
+}
+.radioTBN-addresslist{
+    height: 20px;
+    width: 20px;
+    border: #26015C 2px solid;
+    margin-top: 20px;
+    accent-color: #26015c;
+    
+}
+.AddToNewAddress-editBTN button{
+padding: 10px;
+background-color: transparent;
+padding-left: 20px;
+padding-right: 20px;
+cursor: pointer;
+margin-right: 20px;
+
+}
+.AddToNewAddress-editBTN{
+    position: absolute;
+    margin-left: 50%;
+   margin-top: 150px;
+}
+
