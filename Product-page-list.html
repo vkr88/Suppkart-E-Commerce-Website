@@ -5,40 +5,51 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./Assets/style.css">
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Jost:wght@300;400;500;600;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <link href="https:/fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+    <link href="https:/fonts.googleapis.com/css2?family=Jost:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https:/cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
     <link rel="stylesheet" href="./Assets/Product-page-list.css">
     <title>Document</title>
 </head>
 
 <body>
 
+    <div class="profile-mainDiv">
+        <p>Hello Vikash</p>
+        <p>+91 9006427962</p>
+        <hr>
+        <p><i class="fa-solid fa-heart"></i> WiseList</p>
+        <p><i class="fa-solid fa-bag-shopping"></i> Order</p>
+        <p><i class="fa-solid fa-pen-to-square"></i> Edit Profile</p>
+        <a href="./Home page/Home.html"><p><i class="fa-solid fa-right-from-bracket"></i> Log out</p></a>
+    </div>
+
+
+
     <div class="Navbar-main">
-
         <img class="Compony-Logo" src="./Assets/images/Group 1261154073.png" alt="Logo">
-
         <div class="mainubar"><i class="fa-solid fa-bars"></i></div>
         <div class="input-Div">
             <select>
                 <option>All Categories</option>
             </select>
+            <i class="fa-solid fa-magnifying-glass"></i>
             <input type="text" placeholder="I'm shopping for...">
         </div>
-
         <div class="icons">
             <i class="fa-regular fa-heart"><span class="badge">0</span></i>
-            <i class="fa-solid fa-cart-shopping"><span class="badge">0</span></i>
+           <a href="./myCart.html"> <i class="fa-solid fa-cart-shopping"><span class="badge">0</span></i></a>
         </div>
-
-
-        <button class="Signin">
-            <img src="./Assets/images/person.png" alt="">
+        <div class="Signin" onclick="showProfile()" style="background-image: url(./Assets/images/Rectangle\ 39.png);">
+            <img src="./Assets/images/Group.png" alt="">
             Sign in
-        </button>
+        </div>
+        <img src="./Assets/images/person.png" alt="" class="loginparsernicon">
+
     </div>
 
     <img class="Home-page-hr" src="./Assets/images/Rectangle 27.png" alt="">
+
 
 
 
@@ -263,18 +274,17 @@
 
 
 
-
-    <!-------------------------------------- Footer ------------------------------------------------------------- -->
+ <!-------------------------------------- Footer ------------------------------------------------------------- -->
     <!-------------------------------------- Footer ------------------------------------------------------------- -->
     <!-------------------------------------- Footer ------------------------------------------------------------- -->
 
     <div class="Footer-main-div">
         <div class="Footer-div1">
-            <img class="Footer-logo" src="../Assets/images/Group 1261154050.png" alt="">
+            <img class="Footer-logo" src="./Assets/images/Group 1261154050.png" alt="">
             <p>BEYOND JUST WORK, B-38, Old DLF <br> Colony, Sector 14, Gurugram, Haryana <br> 122001</p>
             <p>Call us : +91 6969696969</p>
             <p>Email : support@gmail.com</p>
-            <div>
+            <div class="icon-footer">
                 <i class="fa-brands fa-facebook"></i>
                 <i class="fa-brands fa-twitter"></i>
                 <i class="fa-brands fa-linkedin"></i>
@@ -284,12 +294,15 @@
         </div>
 
 
-        <div class="Footer-div2">
-            <span>Shop by</span>
-            <p>Brands</p>
-            <p>Shop by goal</p>
-            <p>Top 10</p>
-            <p>Beauty</p>
+        <div>
+            <div class="Footer-div2">
+                <span>Shop by</span>
+                <p>Brands</p>
+                <p>Shop by goal</p>
+                <p>Top 10</p>
+                <p>Beauty</p>
+            </div>
+
         </div>
 
         <div class="Footer-div2">
@@ -321,11 +334,51 @@
             </label>
         </div>
 
+
+    </div>
+    <div class="Footer-copyRight">
+        <p>Logo © 2023. All Rights Reserved</p>
+        <img src="./Assets/images/atm.png" alt="">
     </div>
 
 
 
 
+
+
+ <!-------------------------------------- SideBar ------------------------------------------------------------- -->
+    <!-------------------------------------- SideBar ------------------------------------------------------------- -->
+    <!-------------------------------------- SideBar ------------------------------------------------------------- -->
+
+    <div class="SideBar-main-Div">
+
+        <div class="SideBar-Logo">
+            <img src="./Assets/images/Group 1261154050.png" alt="">
+            <p class="closeSidebar">𐤕</p>
+        </div>
+        <div>
+            <div class="SideBar-main-Div-list">
+                <select name="" id="" class="SideBar-Brand">
+                    <option value="">Brands </option>
+                    <option value="">Brand </option>
+                    <option value="">Brand </option>
+                </select>
+            </div>
+
+
+            <div class="SideBar-main-Div-list">
+                <select name="" id="" class="SideBar-Brand">
+                    <option value="">Brands </option>
+                    <option value="">Brand </option>
+                    <option value="">Brand </option>
+                </select>
+
+
+            </div>
+        </div>
+    </div>
+
+    <script src="./home.js"> </script>   
 </body>
 
 </html>
